@@ -1,0 +1,11 @@
+[package]
+name = "serialize_bson"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+bson = "2.11.0"
+serde = { version = "1.0.204", features = ["derive"] }
+serde_bson = "0.0.1"
+serde_json = "1.0.121"
